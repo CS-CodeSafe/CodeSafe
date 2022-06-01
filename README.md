@@ -6,7 +6,7 @@
 
 ### Você acessará o seguinte menu:
 
-<img src="/img/main.jpg">
+<img src="/img/main.png">
 
 ### Digite o número da opção escolhida e pressione ```enter```
 
