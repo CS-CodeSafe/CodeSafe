@@ -37,8 +37,7 @@ sudo docker run -d -p 3306:3306 --name ConteinerBD -e "MYSQL_DATABASE=banco1" -e
 #Execução interativa + bash do container:
 sudo docker exec -it ConteinerBD bash
 #Acessar o mysql:
-mysql -u root -p
-urubu100
+mysql -u root -p urubu100
 #Criação do Banco:
 use banco1
 create table historico(idHistorico INT PRIMARY KEY AUTO_INCREMENT, dataHorario DATETIME, unidadeMedida VARCHAR(45), consumo FLOAT, total FLOAT, percentualConsumo INT, fkComponente INT);
