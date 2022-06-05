@@ -39,11 +39,11 @@ sudo docker exec -it ConteinerBD bash
 #Acessar o mysql:
 mysql -u root -p urubu100
 #Criação do Banco:
-use banco1
-create table historico(idHistorico INT PRIMARY KEY AUTO_INCREMENT, dataHorario DATETIME, unidadeMedida VARCHAR(45), consumo FLOAT, total FLOAT, percentualConsumo INT, fkComponente INT);
+# use banco1
+# create table historico(idHistorico INT PRIMARY KEY AUTO_INCREMENT, dataHorario DATETIME, unidadeMedida VARCHAR(45), consumo FLOAT, total FLOAT, percentualConsumo INT, fkComponente INT);
 #Fechar Configuração
-exit
-exit
+# exit
+# exit
 
 echo "Banco local configurado com sucesso"
 
