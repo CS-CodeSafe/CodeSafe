@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 PURPLE='0;35'
 NC='\033[0m' 
